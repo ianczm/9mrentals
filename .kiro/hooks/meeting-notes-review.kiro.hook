@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Meeting Notes Review",
+  "description": "When a meeting note is saved in docs/v3/meetings/, cross-reference it against decisions.md and playbook.md to flag contradictions, surface what needs a decision, and draft updates to the relevant docs.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "docs/v3/meetings/*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A meeting note was just saved. Do the following:\n\n1. Read the meeting file that was just edited.\n2. Read docs/v3/decisions.md and docs/v3/playbook.md.\n3. Flag any contradictions between the meeting notes and existing decisions or playbook content. Be specific — quote the conflict.\n4. List any new decisions that were made in the meeting that aren't yet in decisions.md.\n5. List any open questions raised that aren't already tracked in decisions.md.\n6. Draft the specific updates needed to decisions.md and playbook.md based on what was decided.\n7. Ask the user to confirm before making any changes.\n\nDo NOT update any files until the user confirms. Just surface the analysis and proposed changes."
+  }
+}

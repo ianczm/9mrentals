@@ -43,10 +43,25 @@ Adventure gear rental service evolving into a lifestyle brand for people who pus
 
 ## Operations
 
-**Inventory:** Start with 3-5 action camera kits, scale based on utilization
+**Inventory:** Start with 2 kits at MVP (Insta360 X5 + full accessories), scale based on utilization
 **Turnaround:** Inspection, cleaning, quality control between rentals (1-day buffer standard)
 **Verification:** Custom onboarding survey at MVP (customer profile, risk/reliability, marketing fit); eKYC to be evaluated post-MVP
 **Deposits:** 25-30% initially (self-insurance), transition to 10-20% with insurance backing
+**Payment:** Stripe — cards, FPX, Touch 'n Go, PayLater (Atome)
+**Capital:** RM 10,000 at launch (RM 5k per founder); covers equipment only
+**Target launch:** March/April 2026
+
+## Brand Values
+
+These four values are a cycle, not a checklist. They start with a question and end with the same one — because the answer is always: again.
+
+**Seek Discomfort** — Most people find their comfort zone and stay there. We find ours and leave. Constantly challenge yourself, always be learning, never settle. The best moments in life live just past the edge of what feels safe. So step over it.
+
+**Own It** — Once you've decided, don't flinch. No excuses, no backing out. Be accountable to yourself and to the people and ideals you care about. Showing up — fully, consistently — is how you become someone you're proud of. Now go experience it.
+
+**Be Real** — Real adventures are just like life: messy, beautiful, imperfect. We don't clean it up or perform for the camera. Raw and honest beats polished and hollow, every time. So while you're here, give it everything —
+
+**Full Send** — If you're doing it, do it right. Do it with everything you have. Moments like this are fleeting — fight for the memory, push your limits, leave nothing on the table. Because if not now, when?
 
 ## Brand Positioning
 
@@ -72,6 +87,7 @@ Adventure gear rental service evolving into a lifestyle brand for people who pus
 
 **5-Year Goal:** Top rental service in KL/PJ, solid presence, strong customer base, potentially physical location
 **Endgame:** "Decathlon for rentals" — physical shoplot, multiple brand arms (adventure, lifestyle, merch, studio), systematic process, customers constantly in/out
+**Note:** The shoplot endgame is NOT a 5-year goal — it's a long-term dream. Don't conflate the two.
 
 ## Key Constraints
 
@@ -80,3 +96,17 @@ Adventure gear rental service evolving into a lifestyle brand for people who pus
 - Balance convenience (delivery) with relationships (physical collection)
 - Manage seasonal peaks (vacation-focused) with year-round revenue (lifestyle segment)
 - Define "acceptable wear" standards with visual documentation
+
+## Doc Structure
+
+All business documentation lives in `docs/v3/`. Four files:
+
+| File | Purpose |
+|------|---------|
+| `docs/v3/01-pitch.md` | Investor/partner-facing narrative — the business story |
+| `docs/v3/02-playbook.md` | Source of truth for MVP operations — how the business runs today |
+| `docs/v3/03-vision.md` | Long-term direction — where we're going, not what we're doing today |
+| `docs/v3/04-decisions.md` | Permanent log of what was decided and why |
+| `docs/v3/meetings/` | Temporary meeting notes — absorbed into the above, then deleted |
+
+When answering questions about the business, prefer `docs/v3/02-playbook.md` for operational detail and `docs/v3/04-decisions.md` for resolved decisions. `docs/v1/` and `docs/v2/` are archived — do not treat them as current.

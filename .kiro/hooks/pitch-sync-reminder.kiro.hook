@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "name": "Pitch Sync Reminder",
+  "description": "When playbook or vision docs are edited, check if 01-pitch.md needs updating since it's derived from those files.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "docs/v3/02-playbook.md",
+      "docs/v3/03-vision.md",
+      "docs/v3/05-competitors.md",
+      "docs/v3/06-community.md",
+      "docs/v3/07-growth.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A core business doc was just edited. Check if 01-pitch.md needs updating as a result.\n\n1. Read the file that was just edited.\n2. Read docs/v3/01-pitch.md.\n3. Identify any sections in the pitch that are now outdated, inconsistent, or missing information based on the changes made.\n4. If updates are needed, draft the specific changes to 01-pitch.md.\n5. If no updates are needed, say so clearly.\n\nDo NOT update any files until the user confirms."
+  }
+}

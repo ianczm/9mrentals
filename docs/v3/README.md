@@ -8,6 +8,9 @@ Four files. That's it.
 | [02-playbook.md](02-playbook.md) | How the business runs — MVP-focused, operational, decision-complete | Day-to-day execution, building, operating |
 | [03-vision.md](03-vision.md) | Long-term direction — where we're going, not what we're doing today | Strategic thinking, brand decisions, long-term planning |
 | [04-decisions.md](04-decisions.md) | What was decided and why — permanent log | Checking if something was already decided, onboarding, avoiding re-litigation |
+| [05-competitors.md](05-competitors.md) | Competitor landscape — pricing, positioning, gaps | Competitive analysis, pricing decisions, differentiation |
+| [06-community.md](06-community.md) | Community strategy — how we build and grow our people | Community initiatives, events, engagement planning |
+| [07-growth.md](07-growth.md) | Growth and marketing strategy — channels, content, acquisition | Marketing decisions, channel planning, growth experiments |
 | [meetings/](meetings/) | Raw meeting notes — temporary, deleted after absorption | During and immediately after meetings |
 
 ## The Hierarchy

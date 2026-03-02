@@ -46,6 +46,24 @@ These four values are a cycle, not a checklist. They start with a question and e
 
 ---
 
+## Market Context
+
+Why the opportunity exists now.
+
+**The customer is already there.** 70% of hikers on trails like Kuari Pass are mid-20s to early 30s — exactly our target segment. They're already doing the adventures. They just don't have the gear.
+
+**Post-pandemic behavior shift.** Revenge travel drove a surge in experiential spending across Southeast Asia. Malaysians who deferred trips for 2+ years came back with urgency — "if not now, when?" is no longer just a tagline, it's the cultural mood.
+
+**Solo travel is rising.** Young Malaysians are increasingly traveling alone or in small groups, making professional documentation more personal and more desired. (Source: Business Today Malaysia, 2025)
+
+**Social media has raised the bar.** Everyone sees polished adventure content. The desire to document well is mainstream — but the gear investment isn't. Rental bridges that gap.
+
+**Sharing economy is normalized.** Grab, Airbnb, and similar platforms have conditioned Malaysian consumers to rent rather than own. The mental model is there.
+
+**The market is fragmented and unprofessional.** Existing competitors operate via WhatsApp, Google Forms, and manual processes. 50% deposits. No brand. No experience. The gap between what customers expect (modern, seamless) and what exists (chaotic, transactional) is wide open.
+
+---
+
 ## Long-Term Milestones
 
 These are aspirational. Don't confuse them with near-term plans.

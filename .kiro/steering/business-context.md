@@ -99,7 +99,7 @@ These four values are a cycle, not a checklist. They start with a question and e
 
 ## Doc Structure
 
-All business documentation lives in `docs/v3/`. Four files:
+All business documentation lives in `docs/v3/`.
 
 | File | Purpose |
 |------|---------|
@@ -107,6 +107,27 @@ All business documentation lives in `docs/v3/`. Four files:
 | `docs/v3/02-playbook.md` | Source of truth for MVP operations — how the business runs today |
 | `docs/v3/03-vision.md` | Long-term direction — where we're going, not what we're doing today |
 | `docs/v3/04-decisions.md` | Permanent log of what was decided and why |
+| `docs/v3/05-competitors.md` | Competitor landscape — pricing, positioning, gaps |
+| `docs/v3/06-community.md` | Community strategy — how we build and grow our people |
+| `docs/v3/07-growth.md` | Growth and marketing strategy — channels, content, acquisition |
 | `docs/v3/meetings/` | Temporary meeting notes — absorbed into the above, then deleted |
 
 When answering questions about the business, prefer `docs/v3/02-playbook.md` for operational detail and `docs/v3/04-decisions.md` for resolved decisions. `docs/v1/` and `docs/v2/` are archived — do not treat them as current.
+
+## Information Routing
+
+When deciding where something belongs:
+
+| Type of information | Where it goes |
+|---------------------|---------------|
+| How we operate right now | `02-playbook.md` |
+| Post-MVP plans | `02-playbook.md` under "Post-MVP" subsections |
+| Long-term direction | `03-vision.md` |
+| Why the market opportunity exists | `03-vision.md` |
+| Competitor intelligence | `05-competitors.md` |
+| Community strategy | `06-community.md` |
+| Growth & marketing strategy | `07-growth.md` |
+| Decisions made | `04-decisions.md` |
+| Story for outsiders | `01-pitch.md` |
+
+Rule of thumb: if you need it to operate tomorrow → playbook. If it shapes where you're going → vision or strategy doc. If it's a decided decision → decisions.md. `01-pitch.md` is always updated last — it's derived, not primary.

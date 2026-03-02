@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Steering Sync",
+  "description": "When core business docs change, check if the steering file needs updating to stay in sync.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "docs/v3/02-playbook.md",
+      "docs/v3/03-vision.md",
+      "docs/v3/04-decisions.md",
+      "docs/v3/05-competitors.md",
+      "docs/v3/06-community.md",
+      "docs/v3/07-growth.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A core business doc was just edited. Check if .kiro/steering/business-context.md needs updating as a result.\n\n1. Read the file that was just edited.\n2. Read .kiro/steering/business-context.md.\n3. Identify any facts in the steering file that are now outdated or inconsistent — focus on: MVP scope, capital, launch date, brand values, deposit strategy, doc structure table, and key decisions.\n4. The steering file is a summary, not a copy. Proposed updates should be concise — update facts, don't paste full sections from the source doc.\n5. If updates are needed, draft the specific changes.\n6. If no updates are needed, say so clearly and briefly.\n\nDo NOT update any files until the user confirms."
+  }
+}

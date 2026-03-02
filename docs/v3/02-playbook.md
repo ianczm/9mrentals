@@ -97,6 +97,64 @@ Clear cutoff times. No negotiation, but flexible windows agreed with customer up
 
 Customer can reach founders via WhatsApp at any point. Target response time: [define SOP].
 
+---
+
+## Customer Experience
+
+What the customer should feel at each stage. This is as important as the operational flow above.
+
+### Discovery & Browsing
+**Goal:** Inspired and curious. Clear understanding of what we offer. Aligned with brand values. Wants to learn more.
+- Website shows real-time availability, detailed kit contents, transparent pricing
+- Testimonials and customer stories visible
+- For first-timers: consultation option upfront and easy to find, not buried
+
+### Booking & Payment
+**Goal:** Easy and fast (minutes, not hours). Professional and secure. Clear next steps.
+- Self-service, no back-and-forth
+- Transparent pricing, no hidden fees
+- Flexible pickup/dropoff window selection
+- Reasonable deposit — not stressful
+
+### Pre-Rental Communication
+**Goal:** Prepared and informed. No last-minute surprises. Feels supported.
+- Confirmation via WhatsApp with pickup details
+- Reminder before pickup
+- Contact info for questions clearly provided
+
+### Pickup (Physical Collection — MVP)
+**Goal:** Welcomed and supported. Confident they have everything. Excited for the adventure.
+- Agreed location, convenient and safe
+- Founders go through gear usage with customer in person
+- Answer questions, provide tips
+- Build personal relationship — this is a differentiator, not a chore
+
+### During Rental
+**Goal:** Empowered to capture amazing moments. No fear of damage. Support available if needed.
+- Wear-and-tear tolerance explicitly communicated upfront — "use the gear fully, don't hold back"
+- Founders reachable on WhatsApp if issues arise
+- Reminder sent before dropoff window
+
+### Return & Inspection
+**Goal:** No rushing. Fair assessment. Satisfied with experience. Wants to rent again.
+- Flexible dropoff window — time to transfer footage included
+- Inspection done together (if physical), documented with photos
+- Compare to outgoing condition transparently
+- Deposit returned promptly if no issues
+- Thank customer, invite them to share their experience
+
+### Post-Rental
+**Goal:** Feels part of something. Wants to share. Already thinking about next rental.
+- Follow-up message: how was the experience?
+- Invitation to share content (UGC for marketing)
+- Referral incentive offered
+- Community event invitations (when applicable)
+
+### Service Standard
+Not mechanical like a McDonald's kiosk. Authentic like a cafe with passion — Table & Apron, Bijou Cafe. Customers leave thinking "wow, the people are so friendly, I want to keep renting from them."
+
+**Post-MVP additions:** Premium delivery experience (professional packaging, cheat sheets, QR codes to how-to videos, onboarding email series). Maintain relationship even without physical presence.
+
 ### Onboarding Survey (MVP Verification)
 
 Three parts:

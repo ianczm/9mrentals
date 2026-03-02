@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Competitor Review",
+  "description": "Manually trigger a review of competitor intelligence to check for anything outdated, missing, or worth actioning.",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Review docs/v3/05-competitors.md and do the following:\n\n1. Read the full competitors file.\n2. Flag any information that looks outdated or needs re-validation (pricing, policies, new entrants).\n3. Identify any gaps — competitors we should know more about, mystery shopping we haven't done, questions that are still unvalidated.\n4. Cross-reference against docs/v3/02-playbook.md to check if any competitor intel should influence our current pricing, deposit strategy, or positioning.\n5. Suggest specific actions (e.g. \"mystery shop FFCamera\", \"validate KLGoProRent deposit %\").\n\nSurface findings as a summary. Do not update any files unless asked."
+  }
+}

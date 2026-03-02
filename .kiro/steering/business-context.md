@@ -111,6 +111,7 @@ All business documentation lives in `docs/v3/`.
 | `docs/v3/06-community.md` | Community strategy — how we build and grow our people |
 | `docs/v3/07-growth.md` | Growth and marketing strategy — channels, content, acquisition |
 | `docs/v3/meetings/` | Temporary meeting notes — absorbed into the above, then deleted |
+| `docs/v3/research/` | Research sandbox — analysis and exploration before committing to core docs |
 
 When answering questions about the business, prefer `docs/v3/02-playbook.md` for operational detail and `docs/v3/04-decisions.md` for resolved decisions. `docs/v1/` and `docs/v2/` are archived — do not treat them as current.
 
@@ -129,5 +130,16 @@ When deciding where something belongs:
 | Growth & marketing strategy | `07-growth.md` |
 | Decisions made | `04-decisions.md` |
 | Story for outsiders | `01-pitch.md` |
+| Research, analysis, exploratory thinking | `research/YYYY-MM-topic.md` |
 
 Rule of thumb: if you need it to operate tomorrow → playbook. If it shapes where you're going → vision or strategy doc. If it's a decided decision → decisions.md. `01-pitch.md` is always updated last — it's derived, not primary.
+
+## Research Workflow
+
+`docs/v3/research/` is a sandbox — free to be messy, nothing there is authoritative until absorbed. See [research/README.md](docs/v3/research/README.md) for the full workflow.
+
+When research findings are absorbed into a core doc, add a lightweight inline citation:
+```
+(see research/2026-03-market-trends.md)
+```
+One-shot research files get deleted after absorption (git diff is the record). Recurring reference files stay and get linked from the relevant core doc.

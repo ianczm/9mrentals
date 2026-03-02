@@ -12,6 +12,7 @@ Four files. That's it.
 | [06-community.md](06-community.md) | Community strategy — how we build and grow our people | Community initiatives, events, engagement planning |
 | [07-growth.md](07-growth.md) | Growth and marketing strategy — channels, content, acquisition | Marketing decisions, channel planning, growth experiments |
 | [meetings/](meetings/) | Raw meeting notes — temporary, deleted after absorption | During and immediately after meetings |
+| [research/](research/) | Research sandbox — analysis and exploration before committing to core docs | Market research, competitor analysis, exploratory thinking |
 
 ## The Hierarchy
 

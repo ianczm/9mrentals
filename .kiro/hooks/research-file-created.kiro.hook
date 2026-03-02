@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Research Workflow Reminder",
+  "description": "When a new file is created in docs/v3/research/, reminds Kiro of the research workflow so it handles the file correctly",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "docs/v3/research/*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new research file has been created in docs/v3/research/. Follow the research workflow from the business-context steering file: this is a sandbox — help the user explore and analyse freely. When they're ready to commit findings, identify what's worth absorbing into core docs, draft updates with inline citations back to this file, flag anything that contradicts existing decisions, then determine whether this file should be kept (recurring/reference-worthy) or deleted after absorption (one-shot). Do not treat anything in research/ as authoritative until it has been absorbed into a core doc."
+  }
+}

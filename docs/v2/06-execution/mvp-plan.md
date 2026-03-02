@@ -13,6 +13,7 @@
 - Clear policies and terms
 
 **Not Included in MVP:**
+- Delivery (post-MVP)
 - Physical location
 - Large inventory variety
 - Community events (yet)
@@ -256,6 +257,8 @@
 ---
 
 ## MVP Budget (Need to Define)
+
+> ⚠️ **Contradiction to resolve:** The Feb 27 meeting minutes set capital at RM 10,000 (RM 5k per partner, covering equipment only). This plan estimates RM 23,500–41,000 total. Clarify whether RM 10k is the full budget or equipment-only, and adjust accordingly.
 
 ### Initial Investment:
 

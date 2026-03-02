@@ -223,7 +223,7 @@
   - Shows accountability
   - **Con:** Not legally enforceable
 
-**Recommendation:** Explore eKYC as middle ground — less invasive than NRIC copies, more secure than nothing.
+**Recommendation:** Custom onboarding survey for MVP. Evaluate eKYC post-MVP once there is time to properly assess Malaysian providers on UX and cost.
 
 ---
 

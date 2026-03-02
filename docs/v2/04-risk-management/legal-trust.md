@@ -79,7 +79,7 @@
 - Compare costs, user experience, legal validity
 - Test with early customers
 
-**Recommendation:** Explore as middle ground between NRIC copies and nothing.
+**Recommendation:** Custom onboarding survey for MVP (full control, no third-party cost). Evaluate eKYC post-MVP once there is time to properly assess Malaysian providers on UX and cost.
 
 ---
 

@@ -103,9 +103,9 @@
 
 ### Delivery & Collection Options
 
-**Both options available from start** — customer chooses based on preference
+**MVP: Physical collection only.** Delivery is planned for a post-MVP phase once operations are stable.
 
-#### Option 1: Delivery
+#### Option 1: Delivery (Post-MVP)
 **Approach:**
 - Top-up fee (keeps base rental price untouched)
 - Premium Shopee-like experience

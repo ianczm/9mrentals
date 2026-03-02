@@ -33,15 +33,17 @@
 
 ### 3. Customer Verification Method
 
-**Questions:**
-- Which verification method is best (eKYC, NRIC, credit card)?
-- What's the cost and user experience of each?
-- What's legally enforceable in Malaysia?
-- What do customers find acceptable?
+**Status: Partially resolved.** MVP uses a custom onboarding survey (customer profile, risk/reliability, marketing fit). eKYC is deferred to post-MVP.
 
-**Why Critical:** Balance between protection and customer experience.
+**Remaining post-MVP questions:**
+- Which eKYC providers are available in Malaysia?
+- What's the cost and UX quality of each?
+- What's legally enforceable vs. a custom survey?
+- At what point does the investment in eKYC make sense?
 
-**Action:** Research eKYC providers, test with early customers, consult with lawyer on legal validity.
+**Why Still Relevant:** When we're ready to enhance verification beyond the custom survey, these questions need answers.
+
+**Action:** Revisit post-MVP when operationally ready.
 
 ---
 

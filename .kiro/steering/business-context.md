@@ -22,7 +22,7 @@ Adventure gear rental service evolving into a lifestyle brand for people who pus
 - Usage dates separate from pickup/dropoff logistics
 - Flexible windows for collection and return
 - Time to transfer footage included
-- Both delivery and physical collection options
+- Physical collection only at MVP; delivery planned post-MVP
 
 **Pricing:** Competitive with market (RM 70-80/day range), focus on value over price competition
 
@@ -45,7 +45,7 @@ Adventure gear rental service evolving into a lifestyle brand for people who pus
 
 **Inventory:** Start with 3-5 action camera kits, scale based on utilization
 **Turnaround:** Inspection, cleaning, quality control between rentals (1-day buffer standard)
-**Verification:** eKYC preferred (less invasive than NRIC copies)
+**Verification:** Custom onboarding survey at MVP (customer profile, risk/reliability, marketing fit); eKYC to be evaluated post-MVP
 **Deposits:** 25-30% initially (self-insurance), transition to 10-20% with insurance backing
 
 ## Brand Positioning

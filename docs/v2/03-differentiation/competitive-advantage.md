@@ -207,22 +207,28 @@
 
 ---
 
-## Competitive Analysis (Need to Complete)
+## Competitive Analysis
+
+> Full competitor analysis is in [07-reference/02-competitive-landscape.md](../07-reference/02-competitive-landscape.md), including pricing tables, customer journey maps, and a positioning matrix. The section below captures strategic implications only.
 
 ### Known Competitors
 
-**KLGoProRentals:**
-- Current market approach (NRIC, payment info, payslips)
-- Pricing: RM 70-80/day for premium models
-- Pain points: WhatsApp-based, manual processes
+**KLGoProRent** — primary competitor, ~10 years operating, WhatsApp-based, warm personal service but fragmented digital experience. Pricing: RM 47–107/day depending on model.
 
-**Need to Research:**
-- [ ] Mystery shop KLGoProRentals and other competitors
-- [ ] Document their full customer journey
-- [ ] Identify specific pain points to exploit
-- [ ] Analyze their pricing, policies, customer reviews
-- [ ] Who else is in the market?
-- [ ] What are their strengths and weaknesses?
+**FFCamera (Klook)** — physical shop in Subang Jaya, RM 500–1,000 deposits, strict usage limits, no delivery.
+
+**RENTISM** — WhatsApp-only, wide geographic coverage, heavy discounting (50% off frequently), no brand identity.
+
+**RentSmart Asia** — generalist marketplace, RM 10,000 insurance per item, not adventure-focused.
+
+**Cloud of Goods** — P2P marketplace, delivery available, no pricing transparency, inconsistent quality.
+
+**Our sweet spot:** Modern platform + personal service + adventure community. No competitor combines all three.
+
+**Need to complete:**
+- [ ] Mystery shop KLGoProRent full customer journey
+- [ ] Validate exact deposit % for KLGoProRent (assumed ~50%, unconfirmed)
+- [ ] Validate specific kit contents (dive, bike packages)
 
 ---
 

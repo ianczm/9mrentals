@@ -67,11 +67,15 @@ New to the business? Read in order:
 - [next-steps.md](06-execution/next-steps.md) - Immediate priorities and actions
 
 ## 07. Reference
-**Archive and inspiration**
+**Consolidated analysis and research**
 
-- [meeting-notes.md](07-reference/meeting-notes.md) - Consolidated meeting minutes
-- [brainstorm-archive.md](07-reference/brainstorm-archive.md) - Raw ideas and clarifications
-- [inspiration.md](07-reference/inspiration.md) - Quotes, case studies, references
+- [README.md](07-reference/README.md) - Index and tag legend
+- [01-market-and-opportunity.md](07-reference/01-market-and-opportunity.md) - Market sizing, tourism stats, trends, gaps
+- [02-competitive-landscape.md](07-reference/02-competitive-landscape.md) - KLGoProRent deep-dive, all competitors, positioning matrix
+- [03-customer-profile.md](07-reference/03-customer-profile.md) - Segments, demographics, psychographics, buying behavior
+- [04-business-model.md](07-reference/04-business-model.md) - MVP model, pricing, unit economics, operational flow
+- [05-brand-and-philosophy.md](07-reference/05-brand-and-philosophy.md) - Core philosophy, brand voice, inspirations, content strategy
+- [06-contradictions-and-open-questions.md](07-reference/06-contradictions-and-open-questions.md) - Resolved conflicts, open questions, ideas to explore
 
 ---
 

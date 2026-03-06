@@ -56,23 +56,19 @@ Customers select **usage dates** (what they pay for). We add buffer days around 
 
 Example: 5-day diving trip (June 10–15) → pickup window June 8–9, dropoff window June 16–17. Customer pays for 5 days.
 
-Clear cutoff times. No negotiation, but flexible windows agreed with customer upfront.
+Clear cutoff times. No negotiation, but flexible windows agreed with customer upfront. Late fees part of terms and conditions.
 
 ---
 
 ## Pricing
 
-| Item | Rate |
-|------|------|
-| Daily rental (Insta360 X5 kit) | RM 70–80/day |
-| 3–5 day rental | 10% off daily rate |
-| 6–10 day rental | 15% off daily rate |
-| 11+ day rental | 20% off daily rate |
-| Delivery (post-MVP) | RM 20–30 within Klang Valley; RM 50+ outside |
+**Promotions:**
+- Book in advance, cheaper
+- First customer, cheaper
 
 **Deposit:** 25–30% of kit replacement value at launch (self-insured).
 - Kit replacement value: ~RM 2,500–3,500 (confirm actual cost when purchasing)
-- Deposit at 25%: ~RM 625–875
+- Deposit at 25%: ~RM 625–875 (need to think about it, use credit card to waive deposit)
 - Transition to 10–20% with insurance backing once insurance partner is secured
 
 **Payment:** Stripe. Customer pays rental fee + deposit at checkout. Deposit returned after inspection.

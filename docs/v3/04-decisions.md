@@ -48,11 +48,11 @@
 
 ---
 
-### D04 — Deposit strategy: 25–30% self-insured at launch
-**Date:** 2026-02-27
+### D04 — Deposit strategy: 25% self-insured at launch
+**Date:** 2026-03-19
 **Status:** Closed
-**Decision:** Launch with 25–30% deposits, self-insured. Transition to 10–20% with insurance backing once a partner is secured.
-**Reasoning:** Insurance not yet researched. 25–30% is still meaningfully better than market's 50%. Self-insurance fund built from profits.
+**Decision:** Launch with 25% deposits (of kit's current MSRP), self-insured. Transition to 10–20% with insurance backing once a partner is secured.
+**Reasoning:** Insurance not yet researched. 25% is still meaningfully better than market's 50%. Self-insurance fund built from profits. Fixed at 25% (not a range) for simplicity and consistency across T&Cs and all docs.
 **Implications:** Insurance research is a pre-launch priority. Phase 2 deposit reduction is contingent on securing insurance.
 
 ---

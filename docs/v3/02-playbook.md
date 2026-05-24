@@ -56,7 +56,7 @@ Customers select **usage dates** (what they pay for). We add buffer days around 
 
 Example: 5-day diving trip (June 10–15) → pickup window June 8–9, dropoff window June 16–17. Customer pays for 5 days.
 
-Clear cutoff times. No negotiation, but flexible windows agreed with customer upfront. Late fees part of terms and conditions.
+Clear cutoff times. No negotiation, but flexible windows agreed with customer upfront. Late fees and cancellation policy defined in T&Cs (see `operations/terms-and-conditions.md`).
 
 ---
 
@@ -66,7 +66,7 @@ Clear cutoff times. No negotiation, but flexible windows agreed with customer up
 - Book in advance, cheaper
 - First customer, cheaper
 
-**Deposit:** 25–30% of kit replacement value at launch (self-insured).
+**Deposit:** 25% of kit's current MSRP at launch (self-insured).
 - Kit replacement value: ~RM 2,500–3,500 (confirm actual cost when purchasing)
 - Deposit at 25%: ~RM 625–875 (need to think about it, use credit card to waive deposit)
 - Transition to 10–20% with insurance backing once insurance partner is secured
@@ -82,7 +82,7 @@ Clear cutoff times. No negotiation, but flexible windows agreed with customer up
 1. Customer discovers via Instagram → visits website
 2. Browses kits, checks real-time availability, selects dates
 3. Registers + completes onboarding survey (3 parts: customer profile, risk/reliability, marketing fit)
-4. Checkout — pays rental fee + 25% deposit via Stripe
+4. Checkout — pays rental fee + 25% deposit (of kit's current MSRP) via Stripe
 5. Founders confirm via WhatsApp, agree on pickup location and time
 6. Founders and customer meet, hand over gear, go through usage together
 7. Customer goes on trip
@@ -193,13 +193,30 @@ Photos are non-negotiable. Every rental, every time.
 
 ## Damage Policy
 
+> Full damage policy, late returns, and lost/stolen terms are defined in the T&Cs (see `operations/terms-and-conditions.md`). This section covers the operational side — how we assess and handle damage day-to-day.
+
 ### Core Promise
 
 > "As long as wear and tear is minimal, no additional costs. We have good tolerance."
 
 Adventurers push gear. Some wear is expected and acceptable. Remove the fear of getting penalized for using equipment as intended.
 
-### Acceptable Wear (No Charge)
+### Assessment Framework
+
+Every item is evaluated on two aspects:
+- **Functional** — does it still work as intended?
+- **Physical** — is there visible damage? Assessed on a 1–6 scale (1–3 = acceptable wear, 4–6 = unacceptable damage)
+
+### What the Customer Pays
+
+| Item type | Minor damage (adventurous use) | Major / total / malicious damage |
+|-----------|-------------------------------|----------------------------------|
+| Expendable parts (lens guard, dive case, etc.) | 50% of replacement MSRP | 50% of replacement MSRP |
+| Main item (camera, core equipment) | 50/50 split with us | 100% customer responsibility |
+
+All replacement values are based on the item's current MSRP at the time of assessment.
+
+### Acceptable Wear Examples (No Charge)
 
 - Minor scratches on housing exterior
 - Light scuff marks from normal use
@@ -207,6 +224,16 @@ Adventurers push gear. Some wear is expected and acceptable. Remove the fear of 
 - Sand in crevices (cleanable), salt water residue (cleanable), dirt and mud (cleanable)
 - Normal battery degradation
 - Minor lens dust (doesn't affect image quality)
+
+### Unacceptable Damage Examples (Customer Charged)
+
+- Deep scratches on lens (affects image quality)
+- Cracked housing (compromises waterproofing)
+- Broken buttons or controls
+- Water damage to electronics
+- Cracked lens or screen
+- Missing components
+- Equipment doesn't power on
 
 ### Borderline (Case-by-Case)
 
@@ -217,29 +244,26 @@ Adventurers push gear. Some wear is expected and acceptable. Remove the fear of 
 
 Decision factors: Does it affect next customer's experience? Is it repairable quickly and cheaply? Was it reasonable use or negligence? Customer's rental history.
 
-### Unacceptable Damage (Customer Charged)
-
-- Deep scratches on lens (affects image quality)
-- Cracked housing (compromises waterproofing)
-- Broken buttons or controls
-- Water damage to electronics
-- Cracked lens or screen
-- Missing components
-- Equipment doesn't power on
-
-**Action item:** Create visual guide with photo examples of each category before first rental. This is non-negotiable — disputes without visual standards are unwinnable.
+**Action item:** Create visual guide with photo examples of each level (1–6) before first rental. This is non-negotiable — disputes without visual standards are unwinnable.
 
 ### Dispute Resolution
 
-1. Show before/after photos
-2. Compare to visual standards
-3. Listen to customer's explanation
-4. Find middle ground if reasonable
-5. Document decision
-6. Maintain relationship — even if charging, preserve trust
+Process (matches T&Cs):
 
-When to absorb: first-time customer, minor damage, good explanation, relationship value > cost.
-When to charge: repeat damage pattern, negligence, major cost, no reasonable explanation.
+1. At return: preliminary inspection together (photos taken)
+2. We do a detailed inspection and maintenance check
+3. If damage is found, we send the customer our case:
+   - Before/after photos
+   - Visual standards referenced (damage scale level)
+   - Our assessment: acceptable or unacceptable, and why
+4. Collect customer's explanation of what happened
+5. Decide and document the resolution
+6. Invoice: damage cost minus anything we absorb minus deposit = what they owe (if anything)
+
+Deposit is always applied first. Customer only pays the remainder.
+
+**When to absorb:** first-time customer, minor damage, good explanation, relationship value > cost.
+**When to charge:** repeat damage pattern, negligence, major cost, no reasonable explanation.
 
 ---
 
@@ -247,9 +271,9 @@ When to charge: repeat damage pattern, negligence, major cost, no reasonable exp
 
 ### Self-Insurance (Phase 1)
 
-At launch, we self-insure. Deposits (25–30%) provide partial coverage. Build a self-insurance fund from profits to absorb losses.
+At launch, we self-insure. Deposits (25%) provide partial coverage. Build a self-insurance fund from profits to absorb losses.
 
-Worst-case per kit: RM 2,500–4,000 (camera + full accessories). Deposit covers RM 625–1,050. Remaining exposure: RM 1,500–3,000 per lost kit.
+Worst-case per kit: RM 2,500–4,000 (camera + full accessories). Deposit covers ~RM 625–1,000. Remaining exposure: RM 1,500–3,000 per lost kit.
 
 Mitigation: start with trusted network, thorough verification, clear documentation, legal recourse as deterrent (not primary strategy).
 
@@ -278,10 +302,10 @@ Available but not primary strategy. Cost of pursuit often exceeds loss. Use as d
 ## Pre-Launch Checklist
 
 ### Legal & Compliance
-- [ ] Register business (SSM)
-- [ ] Draft T&Cs (lawyer review) — clear, simple language, not intimidating
+- [x] Register business (SSM)
+- [~] Draft T&Cs (lawyer review) — clear, simple language, not intimidating - Ian
 - [ ] Create PDPA-compliant privacy policy
-- [ ] Set up business bank account
+- [x] Set up business bank account
 - [ ] Understand liability requirements
 
 ### Inventory
@@ -300,7 +324,7 @@ Available but not primary strategy. Cost of pursuit often exceeds loss. Use as d
 - [ ] Test full booking flow end-to-end
 
 ### Operations
-- [ ] Define onboarding survey questions (3 parts)
+- [~] Define onboarding survey questions (3 parts) - Nadree
 - [ ] Set pickup/dropoff locations
 - [ ] Create how-to videos for each kit type
 - [ ] Prepare onboarding materials (cheat sheets, QR codes)
@@ -309,8 +333,8 @@ Available but not primary strategy. Cost of pursuit often exceeds loss. Use as d
 ### Pricing & Policies
 - [ ] Confirm rental rates based on actual kit cost
 - [ ] Set deposit amounts (based on confirmed kit replacement value)
-- [ ] Finalize damage charge structure
-- [ ] Define late return policy
+- [ ] Finalize damage charge structure - Ian
+- [~] Define late return policy - Ian (part of T&C)
 
 ### Marketing & Brand
 - [ ] Finalize brand name and logo
@@ -393,7 +417,7 @@ Consistent social media. SEO. Partnerships with dive shops, tour operators. Smal
 | eKYC | Not in MVP | Cost, UX risk, not justified at launch scale |
 | Verification | Custom survey | Full control, dual purpose (risk + marketing) |
 | Consultation | Customer service, not product | Seamless self-service is primary flow; consultation is the safety net |
-| Deposits | 25–30% self-insured at launch | Insurance not yet researched; still better than market's 50% |
+| Deposits | 25% self-insured at launch | Insurance not yet researched; still better than market's 50% |
 | Payment | Stripe only | One gateway, all Malaysian methods covered |
 | Kit value | ~RM 2,500 assumed | **Validate** — may be understated once accessories are priced out |
 | Shoplot vision | Not a 5-year goal | Long-term endgame only; important for investor conversations |
